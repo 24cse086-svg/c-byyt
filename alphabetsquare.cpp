@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter number of rows : ";
+    cin>>n;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n; j++){
+            cout<<(char)(j+64)<<" ";      //also you can use i(A A A A A)
+        }
+        cout<<endl;
+    }
+    
+    
+}
